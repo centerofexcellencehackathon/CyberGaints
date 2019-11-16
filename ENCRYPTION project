@@ -1,0 +1,35 @@
+Problem Statement
+
+Securing the User from OTP theft by Hackers or Man in the middle attack
+
+
+Solution:
+
+Here we Secured The User from OTP theft by sending OTP in an encoded format to the User So that the Hacker can't see the OTP in the TEXT format.Here we used Two Modules 
+
+1.WEB Module
+2.Android Module
+
+
+1.WEB Module
+   Here we used the HTML to Design the Website and we used PHP to send the Otp to the User from the Web page we created
+   We used base64 encoding method to encrypt the OTP from server side and send it to User.Further in Development it can be upgraded to High Level Encryption Methods to Encrypt the OTP
+   Then we used textLocal API to send the message from our web application because they give us 10 free credits messages 
+
+2.Android Module
+   Here we used Android Studio to Design Our Android application for The user to automatically Detect and Decrypt the OTP and we used java as our programming language
+   We used the base64 method  for Decoding the OTP received by the user. 
+   Here in this application we designed the code where the OTP is detected by our CYBERGAINTS application and it will Decrypt the encoded format to the Original Text OTP and it will be seen only in our CYBERGAINTS application by the user.So that hacker is unaware of the OTP received by the User
+   
+   
+   
+Feautres:
+   The Decrypted OTP is show only inside the CYBERGAINTS Android Application that we had Created
+   Because another person cant see the Decrypted OTP and he is unaware of the Android application inside the User Mobile
+   So only user Knows the OTP
+
+
+Scenario and Conclusion:
+   If the User Mobile is in the hands of hacker and he initiates the transaction and he recieves the OTP from the bank and he puts the OTP and he gonna complete the Transaction
+   So we Developed the above Solution 
+   Hence the User is Safe from Otp Theft.   
